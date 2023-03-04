@@ -2,17 +2,22 @@
 COLOR 3
 CLS
 FOR /F "tokens=1,2*" %%V IN ('bcdedit') DO SET adminTest=%%V
-	IF (%adminTest%)==(�⪠����) GOTO errNoAdmin
+	IF (%adminTest%)==(Žâª § ­®) GOTO errNoAdmin
 	IF (%adminTest%)==(Access) GOTO errNoAdmin
-ECHO Desire.pro (FUCK#9803)
+ECHO GlockBaby Cleaner https://discord.gg/QtRRhpZg
+ECHO ┏━━┓╋╋╋╋╋┏┓┏━━┓╋╋┏┓
+ECHO ┃┏━╋┓┏━┳━┫┣┫┏┓┣━┓┃┗┳┳┓
+ECHO ┃┗┓┃┗┫╋┃━┫━┫┏┓┃╋┗┫╋┃┃┃
+ECHO ┗━━┻━┻━┻━┻┻┻━━┻━━┻━╋┓┃
+ECHO ╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋┗━┛
 ECHO.
-ECHO  -���⪠ ��ୠ�� 蠫㭠 :�
-ECHO  +1 - ���⪠ �᭮���� ����� � ॥���.
-ECHO   +2 - ���⪠ ��� ����� � ॥���, 䠩��� Perfect � Minidump/Windows
-ECHO    +3 - ���⪠ ��� �����, 䠩��� Perfect, ��ୠ��� Windows � Last Activity View.
+ECHO  -Žç¨áâª  ¦ãà­ «  è «ã­  :§
+ECHO  +1 - Žç¨áâª  ®á­®¢­ëå «®£®¢ ¢ à¥¥áâà¥.
+ECHO   +2 - Žç¨áâª  ¢á¥å «®£®¢ ¢ à¥¥áâà¥, ä ©«®¢ Perfect ¨ Minidump/Windows
+ECHO    +3 - Žç¨áâª  ¢á¥å «®£®¢, ä ©«®¢ Perfect, ¦ãà­ «®¢ Windows ¨ Last Activity View.
 ECHO.
-ECHO  -��᫥ �롮� �㭪�, ����� �� Enter!
-SET /p doset="�롥� �㭪�: " 
+ECHO  -®á«¥ ¢ë¡®à  ¯ã­ª , ­ ¦¬¨ ­  Enter!
+SET /p doset="‚ë¡¥à¨ ¯ã­ªâ: " 
 ECHO.
 IF %doset% NEQ 1 (
 	IF %doset% NEQ 2 (
@@ -96,6 +101,6 @@ wevtutil.exe cl %1
 GOTO :eof
 :errNoAdmin
 COLOR 2
-ECHO �����-�㯁�� [������ �� ����� ������ BAKA :�]
+ECHO ¨¯ã¯-ã¯¨¯ [‡ ¯ãáâ¨ ®â ¨¬¥­¨  ¤¬¨­  BAKA :§]
 ECHO.
 PAUSE
