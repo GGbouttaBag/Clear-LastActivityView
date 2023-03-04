@@ -5,11 +5,6 @@ FOR /F "tokens=1,2*" %%V IN ('bcdedit') DO SET adminTest=%%V
 	IF (%adminTest%)==(Žâª § ­®) GOTO errNoAdmin
 	IF (%adminTest%)==(Access) GOTO errNoAdmin
 ECHO GlockBaby Cleaner https://discord.gg/QtRRhpZg
-ECHO ┏━━┓╋╋╋╋╋┏┓┏━━┓╋╋┏┓
-ECHO ┃┏━╋┓┏━┳━┫┣┫┏┓┣━┓┃┗┳┳┓
-ECHO ┃┗┓┃┗┫╋┃━┫━┫┏┓┃╋┗┫╋┃┃┃
-ECHO ┗━━┻━┻━┻━┻┻┻━━┻━━┻━╋┓┃
-ECHO ╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋╋┗━┛
 ECHO.
 ECHO  -Žç¨áâª  ¦ãà­ «  è «ã­  :§
 ECHO  +1 - Žç¨áâª  ®á­®¢­ëå «®£®¢ ¢ à¥¥áâà¥.
