@@ -2,17 +2,25 @@
 COLOR 3
 CLS
 FOR /F "tokens=1,2*" %%V IN ('bcdedit') DO SET adminTest=%%V
-	IF (%adminTest%)==(Žâª § ­®) GOTO errNoAdmin
+	IF (%adminTest%)==(Denied) GOTO errNoAdmin
 	IF (%adminTest%)==(Access) GOTO errNoAdmin
-ECHO GlockBaby Cleaner https://discord.gg/QtRRhpZg
+ECHO By : GlockBaby https://discord.gg/QtRRhpZg
+ECHO .
+ECHO .
+ECHO ░██████╗░██╗░░░░░░█████╗░░█████╗░██╗░░██╗██████╗░░█████╗░██████╗░██╗░░░██╗
+ECHO ██╔════╝░██║░░░░░██╔══██╗██╔══██╗██║░██╔╝██╔══██╗██╔══██╗██╔══██╗╚██╗░██╔╝
+ECHO ██║░░██╗░██║░░░░░██║░░██║██║░░╚═╝█████═╝░██████╦╝███████║██████╦╝░╚████╔╝░
+ECHO ██║░░╚██╗██║░░░░░██║░░██║██║░░██╗██╔═██╗░██╔══██╗██╔══██║██╔══██╗░░╚██╔╝░░
+ECHO ╚██████╔╝███████╗╚█████╔╝╚█████╔╝██║░╚██╗██████╦╝██║░░██║██████╦╝░░░██║░░░
+ECHO ░╚═════╝░╚══════╝░╚════╝░░╚════╝░╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░░░░╚═╝░░░
 ECHO.
-ECHO  -Žç¨áâª  ¦ãà­ «  è «ã­  :§
-ECHO  +1 - Žç¨áâª  ®á­®¢­ëå «®£®¢ ¢ à¥¥áâà¥.
-ECHO   +2 - Žç¨áâª  ¢á¥å «®£®¢ ¢ à¥¥áâà¥, ä ©«®¢ Perfect ¨ Minidump/Windows
-ECHO    +3 - Žç¨áâª  ¢á¥å «®£®¢, ä ©«®¢ Perfect, ¦ãà­ «®¢ Windows ¨ Last Activity View.
+ECHO  Choose an option below.
+ECHO  +1 - Cleaning the main logs in the registry.
+ECHO   +2 - Clean all logs in registry, prefetch, Minidump/Windows.
+ECHO    +3 - Clear all logs, prefetch, logs, Windows, and Last Activity View.
 ECHO.
-ECHO  -®á«¥ ¢ë¡®à  ¯ã­ª , ­ ¦¬¨ ­  Enter!
-SET /p doset="‚ë¡¥à¨ ¯ã­ªâ: " 
+ECHO  -After selecting the option click on Enter!
+SET /p doset="Select an item: " 
 ECHO.
 IF %doset% NEQ 1 (
 	IF %doset% NEQ 2 (
@@ -96,6 +104,6 @@ wevtutil.exe cl %1
 GOTO :eof
 :errNoAdmin
 COLOR 2
-ECHO ¨¯ã¯-ã¯¨¯ [‡ ¯ãáâ¨ ®â ¨¬¥­¨  ¤¬¨­  BAKA :§]
+ECHO БипБуп-БупБип [Запусти от имени админа BAKA :з]
 ECHO.
 PAUSE
